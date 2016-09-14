@@ -1,4 +1,4 @@
-# multiMult
+# multiMult [![GitHub Release](https://img.shields.io/github/release/luizmoreiratd/multiMult.svg)](https://github.com/luizmoreiratd/multiMult/releases/latest)
 
 ## Table of contents
 * [Introduction](#introduction)
