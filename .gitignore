@@ -1,0 +1,14 @@
+build/
+release/
+
+*.DS_Store
+
+*.so
+*.dylib
+*.dll
+*.mll
+*.bundle
+
+*.exe
+*.out
+*.app
