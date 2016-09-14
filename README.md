@@ -43,13 +43,13 @@ cd build
 ### Run a basic build
 #### For Windows
 ```shell
-"C:/Program Files (x86)/CMake/bin/cmake.exe" -G "Visual Studio 11 Win64" -DMAYA_VERSION=2015 ..
+cmake -G "Visual Studio 11 2012 Win64" -DMAYA_VERSION=2015 ..
+cmake --build . --config Release --target Install
 ```
 
 #### For Linux or Mac
 ```shell
 cmake -G "Unix Makefiles" -DMAYA_VERSION=2015 ..
-cmake --build .
 make install
 ```
 
