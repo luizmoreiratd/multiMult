@@ -72,6 +72,7 @@ MStatus multiMult::compute(const MPlug& plug, MDataBlock& data)
 
         MDataHandle outputH = data.outputValue(aOutput);
         outputH.set(outputValue);
+        data.setClean(plug);
     }
     else
         return MS::kUnknownParameter;
